@@ -1,0 +1,156 @@
+/************************** DEFINIÇÕES GERAIS ************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #0075a8;
+}
+
+a:hover {
+    color: #004869;
+}
+
+html, body {
+    margin: 0 !important;
+    height: 100% !important;
+    background-image: linear-gradient(-180deg, #90E0EF, #FFF);
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.form-check-label {
+    font-family: 'Merriweather', serif;
+}
+
+/* SUBLINHAR TEXTOS E IMAGENS */
+::-moz-selection {
+    background: #0075a8;
+    color: white;
+    text-shadow: none;
+}
+  
+::selection {
+    background: #0075a8;
+    color: white;
+    text-shadow: none;
+}
+  
+img::-moz-selection {
+    background: transparent;
+}
+  
+img::selection {
+    background: transparent;
+}
+  
+img::-moz-selection {
+    background: transparent;
+}
+/************************** FIM DEFINIÇÕES GERAIS ************************/
+
+/*                                  INDEX                                */
+
+.bg-pibji {
+    background-color: rgba(144, 224, 239, .2);
+}
+
+.bg-pibji a {
+    text-decoration: none;
+}
+
+.div-apresentacao h2, .div-produtos-servicos h2, .div-voluntariado h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 1.3em;
+}
+
+.div-produtos-servicos h3, .div-voluntariado h3{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#modalProdutosServicos h5{
+    font-size: 30px;
+}
+
+#modalProdutosServicos h5, #modalProdutosServicos label{
+    font-weight: 600;
+}
+
+.div-apresentacao p{
+    font-weight: 400;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+.section-explicacao p, .section-produtos-servicos p, .section-voluntariado p{
+    font-weight: 500;
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.section-explicacao p {
+    font-size: 20px;
+}
+
+.section-produtos-servicos p, .section-voluntariado p{
+    font-size: 18px;
+}
+
+.form-check-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #0077B6 !important;
+}
+.navbar-brand:hover {
+    color: #03045E !important;
+}
+
+.btn-options, .btn-options:visited {
+    background-color: #006b99 !important;
+    border-color: #005980 !important;
+}
+
+.btn-options:hover, .btn-options:active {
+    background-color: #004869 !important;
+    border-color: #004666 !important;
+}
+
+/*                                FIM INDEX                               */
+
+/*                                  PES                                */
+.card-serv-prod, .card-vol, .links-vol {
+    width: 100%;
+}
+
+.card-serv-prod, .card-vol {
+    box-shadow: 3px 3px 5px 3px #ccc;
+}
+
+.textareasForm {
+    min-height: 80px; 
+    resize: vertical;
+}
+/*                                FIM PES                               */
+
+.lista-acoes-vol {
+    list-style-type:'- ';
+}
+
+.desc-outros-vol {
+    margin-top: -20px;
+    font-size: 14px !important;
+}
