@@ -36,13 +36,13 @@ $(document).ready(function () {
         }
     });
 
-    $('#formSendVol').click(function () {
+    /*$('#formSendVol').click(function () {
         if ($(this).is(':checked')) {
             $('#buttonAcceptVol').show();
         } else {
             $('#buttonAcceptVol').hide();
         }
-    });
+    });*/
 
     $("#buttonFormVolunt").click(function () {
         //$("#formsv").show();

@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="form-group col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <p>
-                        O voluntariado proposto pela PIBJI Social tem a intenção de auxiliar pessoas em necessidade. Dentre os
+                        O voluntariado proposto pela Social PIBJI tem a intenção de auxiliar pessoas em necessidade. Dentre os
                         serviços propostos, enfatizamos o apoio a recolocação profissional – ajuste de CV, atualização de LinkedIn,
                         dicas para entrevistas, e outros – e o atendimento psicológico emergencial à distância. Outras formas de
                         apoios gerais, como idas ao supermercado, farmácias, apoio educacional, também são bem-vindas! Inscreva-se e
@@ -72,7 +72,7 @@
             </div>
 
             <div class="row mb-3">
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-vol">
                         <div class="card-body">
                             <h5 class="card-title">Laira Saffi Ramiro</h5>
@@ -93,7 +93,7 @@
                     </div>
                 </div>
 
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-vol">
                         <div class="card-body">
                             <h5 class="card-title">Caroline Lima</h5>
@@ -111,10 +111,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row mb-3">
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-vol">
                         <div class="card-body">
                             <h5 class="card-title">Deronice Ramiro</h5>
@@ -133,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-vol">
                         <div class="card-body">
                             <h5 class="card-title">Vanderlei Ramiro</h5>
@@ -164,7 +162,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalVoluntariadoLabel">Produtos e Serviços</h5>
+                    <h5 class="modal-title" id="modalVoluntariadoLabel">Voluntariado</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -236,7 +234,7 @@
                         </div>
                     </div>
 
-                    <div class="row form-group">
+                    <!--<div class="row form-group">
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 mb-3 px-5 form-check">
                             <input class="form-check-input" type="checkbox" id="formSendVol" name="formSendVol" unchecked>
                             <label class="form-check-label" for="formSendVol">
@@ -244,13 +242,12 @@
                                 responsabiliza por trotes e coisas do genêro.
                             </label>
                         </div>
-                    </div>
+                    </div>-->
 
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary btn-options" id="buttonAcceptVol" style="display: none;"
-                        onclick="$('#modalVoluntariado').modal('hide')">Enviar</button>
+                    <button type="button" class="btn btn-primary btn-options" id="buttonAcceptVol" onclick="$('#modalVoluntariado').modal('hide')">Enviar</button>
                 </div>
             </div>
         </div>
@@ -260,13 +257,13 @@
         <nav class="d-flex">
             <ul class="navbar-nav flex-row">
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." class="navbar-brand"><i class="fab fa-whatsapp fa-1x"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." target="_blank" class="navbar-brand"><i class="fab fa-whatsapp fa-1x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.instagram.com/conexaopibji/" class="navbar-brand"><i class="fab fa-instagram fa-1x"></i></a>
+                    <a href="https://www.instagram.com/conexaopibji/" target="_blank" class="navbar-brand"><i class="fab fa-instagram fa-1x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" class="navbar-brand"><i class="fab fa-youtube fa-1x"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" target="_blank" class="navbar-brand"><i class="fab fa-youtube fa-1x"></i></a>
                 </li>
             </ul>
         </nav>

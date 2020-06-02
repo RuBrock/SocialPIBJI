@@ -33,8 +33,8 @@
         <div class="row div-apresentacao text-center">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5 mb-3 px-5">
 
-                <h2>Seja Bem Vindo!</h2>
-                <p>Aqui é onde você pode ajudar e ser ajudado nesse momento dificil.</p>
+                <h2>Seja Bem Vindo(a)!</h2>
+                <p>Aqui você pode ajudar e ser ajudado(a).</p>
 
             </div>
         </div>
@@ -82,13 +82,13 @@
         <nav class="d-flex">
             <ul class="navbar-nav flex-row">
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." class="navbar-brand"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." target="_blank" class="navbar-brand"><i class="fab fa-whatsapp fa-2x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.instagram.com/conexaopibji/" class="navbar-brand"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.instagram.com/conexaopibji/" target="_blank" class="navbar-brand"><i class="fab fa-instagram fa-2x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" class="navbar-brand"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" target="_blank" class="navbar-brand"><i class="fab fa-youtube fa-2x"></i></a>
                 </li>
             </ul>
         </nav>

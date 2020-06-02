@@ -78,11 +78,11 @@ img::-moz-selection {
     font-size: 30px;
 }
 
-#modalProdutosServicos h5{
+#modalProdutosServicos h5, #modalVoluntariado h5{
     font-size: 30px;
 }
 
-#modalProdutosServicos h5, #modalProdutosServicos label{
+#modalProdutosServicos h5, #modalProdutosServicos label, #modalVoluntariado h5, #modalVoluntariado label{
     font-weight: 600;
 }
 
@@ -137,7 +137,7 @@ img::-moz-selection {
 }
 
 .card-serv-prod, .card-vol {
-    box-shadow: 3px 3px 5px 3px #ccc;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0,.5);
 }
 
 .textareasForm {

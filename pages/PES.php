@@ -61,7 +61,7 @@
             </div>
 
             <div class="row mb-3">
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-serv-prod">
                         <div class="card-body">
                             <h5 class="card-title">Lucas Lima Souza</h5>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-serv-prod">
                         <div class="card-body">
                             <h5 class="card-title">José Silva</h5>
@@ -84,10 +84,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row mb-3">
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-serv-prod">
                         <div class="card-body">
                             <h5 class="card-title">Pedro Santos</h5>
@@ -99,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <div class="form-group col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                     <div class="card card-serv-prod">
                         <div class="card-body">
                             <h5 class="card-title">Alberto Nunes</h5>
@@ -153,6 +151,13 @@
 
                     <div class="row">
                         <div class="form-group col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <label for="inputURL">URL do seu Site / Rede Social / Meio de Divulgação</label>
+                            <input type="email" class="form-control" id="inputURL"  name="inputURL" placeholder="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <label for="inputTipoAnuncio">O que você quer anunciar?</label>
                             <select class="form-control" id="inputTipoAnuncio" name="inputTipoAnuncio">
                                 <option value="">Selecione</option>
@@ -201,13 +206,13 @@
         <nav class="d-flex">
             <ul class="navbar-nav flex-row">
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." class="navbar-brand"><i class="fab fa-whatsapp fa-1x"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511988711411&text=Oi%2C%20Conheci%20voc%C3%AAs%20atrav%C3%A9s%20do%20SocialPIBJI%2C%20queria%20saber%20mais%20sobre%20a%20Igreja%20e%20como%20ela%20funciona." target="_blank" class="navbar-brand"><i class="fab fa-whatsapp fa-1x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.instagram.com/conexaopibji/" class="navbar-brand"><i class="fab fa-instagram fa-1x"></i></a>
+                    <a href="https://www.instagram.com/conexaopibji/" target="_blank" class="navbar-brand"><i class="fab fa-instagram fa-1x"></i></a>
                 </li>
                 <li class="dav-item my-3 ml-2">
-                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" class="navbar-brand"><i class="fab fa-youtube fa-1x"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk73RPtGSKhPA-Mttf7iBOA" target="_blank" class="navbar-brand"><i class="fab fa-youtube fa-1x"></i></a>
                 </li>
             </ul>
         </nav>
